@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Maik\\dev\\NovaVault\\NovaVault\\NovaVault\\NovaVault.csproj": {}
+  },
+  "projects": {
+    "F:\\Maik\\dev\\NovaVault\\NovaVault\\NovaVault\\NovaVault.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Maik\\dev\\NovaVault\\NovaVault\\NovaVault\\NovaVault.csproj",
+        "projectName": "NovaVault",
+        "projectPath": "F:\\Maik\\dev\\NovaVault\\NovaVault\\NovaVault\\NovaVault.csproj",
+        "packagesPath": "C:\\Users\\maikk\\.nuget\\packages\\",
+        "outputPath": "F:\\Maik\\dev\\NovaVault\\NovaVault\\NovaVault\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\maikk\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maikk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maikk\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[7.0.37, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
